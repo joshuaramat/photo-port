@@ -2,16 +2,10 @@ import React from "react";
 
 function Nav() {
     const categories = [
-        {
-            name: "commercial",
-            description: "phtos of grocery stores, food trucks, and other commercial projects",
-        },
+        { name: "commercial", description: "phtos of grocery stores, food trucks, and other commercial projects" },
         { name: "portraits", description: "Portraits of people in my life" },
         { name: "food", description: "Delicious delicacies" },
-        {
-            name: "landscape",
-            decription: "Fields, farmhouses, waterfalls, and the beauty of nature",
-        }
+        { name: "landscape", decription: "Fields, farmhouses, waterfalls, and the beauty of nature" }
     ];
     function categorySelected(name) {
         console.log(`${name} clicked`);
