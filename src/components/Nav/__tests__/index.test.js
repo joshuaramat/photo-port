@@ -27,7 +27,7 @@ describe('Nav component', () => {
 
     // snapshot test
     it('matches snapshot', () => {
-        const {asFragment } = render(
+        const { asFragment } = render(
         <Nav 
             categories={categories}
             setCurrentCategory={mockSetCurrentCategory}
